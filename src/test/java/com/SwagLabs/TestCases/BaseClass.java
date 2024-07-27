@@ -17,7 +17,7 @@ public class BaseClass {
 	@BeforeTest
 	public void setUp()
 	{
-		//
+		//initialization
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.saucedemo.com/");
